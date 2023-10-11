@@ -1,0 +1,36 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: #040E28;
+}
+
+/* =========== common-classes ============== */
+
+/* color */
+.bg-seaGreen{
+    background: var(--Gradient, linear-gradient(136deg, #009DAB 14.68%, #00656E 85.19%));
+}
+.text-seaGreen{
+    color: var(--Primary, #50C9D4);
+}
+.text-gray{
+    color: #ECECEC;
+}
+.bg-blue-gradient{
+    background: var(--Timmer-Gradient, linear-gradient(101deg, #171D33 7.82%, rgba(23, 29, 51, 0.00) 111.93%));
+}
+.bg-black{
+    background: #040E28;
+}
+.bg-blue{
+    background: #2C4274;
+}
+
+/* ===================== background-images ================ */
+.map{
+    background-image: url('../images/map.png');
+    background-position:top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
