@@ -2,6 +2,7 @@ body{
     margin: 0;
     padding: 0;
     background: #040E28;
+    font-family: 'Poppins', sans-serif;
 }
 
 /* =========== common-classes ============== */
@@ -24,6 +25,9 @@ body{
 }
 .bg-blue{
     background: #2C4274;
+}
+.display-none{
+    display: none !important;
 }
 
 /* ===================== background-images ================ */
